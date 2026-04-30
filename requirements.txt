@@ -1,0 +1,5 @@
+xarray==2026.4.0
+numpy==2.3.5
+matplotlib==3.10.8
+netCDF4==1.7.4
+gdal==3.12.2

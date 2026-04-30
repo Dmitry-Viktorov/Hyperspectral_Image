@@ -1,0 +1,33 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Generated images/logs
+reports/*.png
+reports/*.log
+
+# Local heavy data (excluded from git)
+dataset/*.nc
+dataset/*.tif
+dataset/*.tiff
+dataset/*.rsp
+
+# Python packaging / wheels
+*.whl
+
+# IDE/editor files
+.vscode/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

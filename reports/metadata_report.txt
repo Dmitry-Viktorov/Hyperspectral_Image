@@ -1,0 +1,402 @@
+Отчёт по метаданным
+========================
+
+Файл: dataset\AV320241005t175313_005_L1B_RDN_f6524bfe_RDN.nc
+Группа: radiance
+
+Размерности:
+  wavelength: 284
+  lines: 1280
+  samples: 1234
+
+Координаты:
+  wavelength: dtype=float32, shape=(284,)
+    standard_name: radiation_wavelength
+    long_name: Wavelength centers
+    units: nm
+
+Переменные данных:
+  radiance: dtype=float32, shape=(284, 1280, 1234)
+    standard_name: surface_upwelling_radiance_per_unit_wavelength_in_air
+    long_name: Calibrated radiance
+    units: uW nm-1 cm-2 sr-1
+  fwhm: dtype=float32, shape=(284,)
+    long_name: Full width at half maximum
+    units: nm
+
+Глобальные атрибуты:
+  (глобальные атрибуты отсутствуют)
+
+Геопривязка и CRS:
+  (геопривязка явно не указана в датасете)
+
+Найденные .rsp файлы: dataset\0041_0102_21118_1_01231_07_GSA.rsp, dataset\0041_0306_34728_1_04894_06_gsa.rsp
+
+RSP файл: dataset\0041_0102_21118_1_01231_07_GSA.rsp
+  Количество записей: 1452
+    rsp_root/OFPM_IDENT_VERS_TEXT/@val: NIITP_2001_20160421
+    rsp_root/VOEP_1_Data/aSunHeight/@val: 044:18:50.400000
+    rsp_root/VOEP_1_Data/cDevMode/@val: 001
+    rsp_root/VOEP_1_Data/dDateTimePlanOEP/@val: 20170403T11:03:37
+    rsp_root/VOEP_1_Data/dDateTimeRealOEP/@val: 20170403T11:03:37.255911599846
+    rsp_root/VOEP_1_Data/nDarkPixelLeft/@val: 24
+    rsp_root/VOEP_1_Data/nDarkPixelRight/@val: 24
+    rsp_root/VOEP_1_Data/nFactorCompres/@val: 1
+    rsp_root/VOEP_1_Data/nFrameFrequency/@val: 253.299565364309
+    rsp_root/VOEP_1_Data/nImageVelocityBegin/@val: 58.5779991149902
+    rsp_root/VOEP_1_Data/nImageVelocityEnd/@val: 58.640998840332
+    rsp_root/VOEP_1_Data/nInclinDistanceVisib/@val: 489.696014404297
+    rsp_root/VOEP_1_Data/nOEPDeltaTimePlan/@val: 41.6147575005889
+    rsp_root/VOEP_1_Data/nSLIPixelsQuant/@val: 22
+    rsp_root/VOEP_1_Data/nVOEPNumber/@val: 1
+    rsp_root/VOEP_1_Data/nZKPixelsQuantHS/@val: 1024
+    rsp_root/VOEP_2_Data/aSunHeight/@val: 044:18:50.400000
+    rsp_root/VOEP_2_Data/cDevMode/@val: 001
+    rsp_root/VOEP_2_Data/dDateTimePlanOEP/@val: 20170403T11:03:37
+    rsp_root/VOEP_2_Data/dDateTimeRealOEP/@val: 20170403T11:03:37.2551653999825
+    ... (1315 more entries)
+  Точные совпадения ключей: нет
+  Точные совпадения значений: нет
+  Вероятные схожие ключи:
+    long name <-> name
+    standard name <-> name
+    wavelength <-> rsp root gsi psp cont document data strip tablelengthwave wavelength channelnumber
+    wavelength <-> rsp root gsi psp cont document data strip tablelengthwave wavelength wavedelta
+    wavelength <-> rsp root gsi psp cont document data strip tablelengthwave wavelength wavelen
+    wavelength <-> wavelen
+
+RSP файл: dataset\0041_0306_34728_1_04894_06_gsa.rsp
+  Количество записей: 1454
+    rsp_root/OFPM_IDENT_VERS_TEXT/@val: NIITP_2001_20160421
+    rsp_root/VOEP_1_Data/aSunHeight/@val: 046:56:20.400000
+    rsp_root/VOEP_1_Data/cDevMode/@val: 001
+    rsp_root/VOEP_1_Data/dDateTimePlanOEP/@val: 20190909T13:07:29
+    rsp_root/VOEP_1_Data/dDateTimeRealOEP/@val: 20190909T13:07:29.3805310800703
+    rsp_root/VOEP_1_Data/meas_data/AngularIZM/NSTime/@val: 8946449,8946449,8946449,8946450,8946450,8946450,8946450,8946451,8946451,8946451,8946451,8946452,8946452,8946452,8946452,8946453,8946453,8946453,8946453,8946454,8946454,8946454,8946454,8946455,8946455,8946455,8946455,8946456,8946456,8946456,8946456,8946457,8946457,8946457,8946457,8946458,8946458
+    rsp_root/VOEP_1_Data/meas_data/AngularIZM/OX/@val: -4.05359970584137E-5,-5.24924265202642E-5,-3.75293346759999E-5,-4.06149946346942E-5,-4.96046262317908E-5,-4.68514144066101E-5,-4.63090375287218E-5,-4.27036759223678E-5,-5.20967071798225E-5,-4.71044992343233E-5,-5.99935389717066E-5,-4.94279788737193E-5,-5.14797214798915E-5,-5.76506756677602E-5,-4.59718349114507E-5,-5.14146216253641E-5,-5.43415549724579E-5,-5.39546131404917E-5,-4.88274510021802E-5,-4.3731375873053E-5,-3.99383950230331E-5,-3.45025571699961E-5,-4.91394182825839E-5,-3.3502652662817E-5,-4.35905700079236E-5,-3.78566625962359E-5,-4.85754633630264E-5,-4.8741870294543E-5,-5.71174420278673E-5,-4.52147748054299E-5,-3.94797702051828E-5,-3.7253574618058E-5,-4.80440583707326E-5,-4.15600397139007E-5,-5.0374852600525E-5,-4.5560023472137E-5,-2.39106645465821E-5
+    rsp_root/VOEP_1_Data/meas_data/AngularIZM/OY/@val: -3.65027319138742E-5,-9.06749541186569E-5,-9.40012641013906E-5,-5.60703584126319E-5,-8.31138620259646E-5,-6.18390101287021E-5,-4.16639068975287E-5,-6.19121560326655E-5,-3.43847922646151E-5,5.96139117301368E-8,-5.96896177407388E-5,-3.09297454909059E-5,3.18257828144571E-5,-6.0629542606668E-5,-1.39288087622224E-5,4.36212912875882E-5,-7.45331160320231E-5,-2.59521667261994E-6,6.99790520512644E-5,-6.01189841970037E-5,1.96989233963719E-5,8.98809553311347E-5,-4.85418162472033E-5,3.22851390913469E-5,0.000115344141689339,-1.71710009553983E-5,-2.69432937249029E-6,0.000157864952851798,-3.48979107809181E-6,-1.09345811834824E-5,0.000131149874347261,-8.33863305182281E-8,-4.99367086357845E-5,0.000114081643386931,4.25332459661332E-5,-8.4865706425887E-5,0.000132236822480157
+    rsp_root/VOEP_1_Data/meas_data/AngularIZM/OZ/@val: -0.00110334122716225,-0.00109560531635908,-0.00110374060379789,-0.00113124565806523,-0.00112304088201766,-0.00110923861566929,-0.00109679028000329,-0.00110735218280608,-0.00112576264110414,-0.00113067694866191,-0.00112369261202197,-0.00114191654826492,-0.00112469105361107,-0.0011211683468762,-0.00113704539679048,-0.00113625871259336,-0.00114585070070959,-0.00113410493145116,-0.00113964939097158,-0.00111862908682011,-0.00112586979985344,-0.00112003129379909,-0.00111894580858427,-0.00113426365806276,-0.00111885108463864,-0.00112789667285227,-0.00112675193945524,-0.00112298163383545,-0.00110670886458072,-0.00111765770921548,-0.00111320787814786,-0.00111387679743961,-0.00110737156647063,-0.00110433674291519,-0.0011089028759701,-0.00108780832872611,-0.00110377351945467
+    rsp_root/VOEP_1_Data/meas_data/AngularIZM/ShiftNSTime/@val: 0.4375,0.6875,0.9375,0.1875,0.4375,0.6875,0.9375,0.1875,0.4375,0.6875,0.9375,0.1875,0.4375,0.6875,0.9375,0.1875,0.4375,0.6875,0.9375,0.1875,0.4375,0.6875,0.9375,0.1875,0.4375,0.6875,0.9375,0.1875,0.4375,0.6875,0.9375,0.1875,0.4375,0.6875,0.9375,0.1875,0.4375
+    rsp_root/VOEP_1_Data/meas_data/AngularIZM/nMeasCount/@val: 37
+    rsp_root/VOEP_1_Data/meas_data/AngularIZM/step/@val: 0.25
+    rsp_root/VOEP_1_Data/meas_data/KvaterIZM/L0/@val: 0.534821704030037,0.534902546554804,0.534983916208148,0.53506531752646,0.535148434340954,0.535230988636613,0.535303581506014,0.535384446382523,0.535464892163873,0.535542195662856,0.535620821639895,0.535701896995306,0.535776935517788,0.535856354981661,0.535938052460551,0.536012951284647,0.536095064133406,0.536176137626171,0.536254407837987,0.536333553493023,0.536412065848708,0.536481311544776,0.536558225750923,0.536635596305132,0.536703642457724,0.536778291687369,0.536860693246126,0.53692820854485,0.536999912932515,0.537078864872456,0.537151455879211,0.537223475053906,0.537303486838937,0.537373362109065,0.537442235276103,0.537522358819842,0.537591962143779
+    rsp_root/VOEP_1_Data/meas_data/KvaterIZM/L1/@val: -0.0163041818886995,-0.0163910891860723,-0.0164609849452972,-0.0165496934205294,-0.0166379325091839,-0.0167249944061041,-0.0167374741286039,-0.0168254822492599,-0.0169154163450003,-0.0170080456882715,-0.0170844551175833,-0.0171771720051765,-0.0172724910080433,-0.0173643603920937,-0.0175408273935318,-0.0176383629441261,-0.0177306439727545,-0.0178226586431265,-0.0179797969758511,-0.0180714838206768,-0.0181629508733749,-0.0182611681520939,-0.0183062609285116,-0.0183996371924877,-0.018499992787838,-0.0185943078249693,-0.018771992996335,-0.0188733544200659,-0.0189691111445427,-0.019059494137764,-0.0191967040300369,-0.0192925203591585,-0.0193814542144537,-0.0194779615849257,-0.0195515435189009,-0.0196383204311132,-0.0197340380400419
+    rsp_root/VOEP_1_Data/meas_data/KvaterIZM/L2/@val: 0.642200684174895,0.642190538346767,0.642178876325488,0.642170207574964,0.642159253358841,0.642148150131106,0.642135197296739,0.642125612124801,0.642116826027632,0.642111169174314,0.642100131139159,0.642091171815991,0.642087316140532,0.642079204320908,0.642076000571251,0.642072504386306,0.642062926664948,0.642054289579391,0.64205538854003,0.642048021778464,0.642041249200702,0.642042702063918,0.642033537849784,0.642027284950018,0.642028691247106,0.642025396227837,0.642019813880324,0.642021784558892,0.642018340528011,0.642009677365422,0.642011625692248,0.642009992152452,0.642000239342451,0.6419996637851,0.641996851190925,0.641986703500152,0.641986265778542
+    rsp_root/VOEP_1_Data/meas_data/KvaterIZM/L3/@val: 0.548888152465224,0.548818651586771,0.548750892281532,0.548678996041417,0.548608081415296,0.548537889495492,0.548481836915016,0.548411432653666,0.54834040813148,0.548268666490912,0.548202408477664,0.548130782321095,0.548058956861496,0.547987908124924,0.547906138002872,0.547833831980824,0.547761727124453,0.547689508646727,0.547606443986297,0.547534545883536,0.547462545335293,0.547389717772603,0.547323575243354,0.547251913696527,0.547180149704218,0.547107588499784,0.547027211636305,0.546955140307546,0.546885469928384,0.54681496322155,0.546736568212509,0.546664346009493,0.546594016253948,0.546522563323379,0.546455508098006,0.546385509893298,0.546314088627696
+    rsp_root/VOEP_1_Data/meas_data/KvaterIZM/TimeSUD/@val: 8946449.5,8946449.75,8946450,8946450.25,8946450.5,8946450.75,8946451,8946451.25,8946451.5,8946451.75,8946452,8946452.25,8946452.5,8946452.75,8946453,8946453.25,8946453.5,8946453.75,8946454,8946454.25,8946454.5,8946454.75,8946455,8946455.25,8946455.5,8946455.75,8946456,8946456.25,8946456.5,8946456.75,8946457,8946457.25,8946457.5,8946457.75,8946458,8946458.25,8946458.5
+    rsp_root/VOEP_1_Data/meas_data/KvaterIZM/nMeasCount/@val: 37
+    rsp_root/VOEP_1_Data/meas_data/KvaterIZM/step/@val: 0.25
+    rsp_root/VOEP_1_Data/meas_data/OrbitaIZM/TimeBSKVU/@val: 8946454.015625
+    ... (1317 more entries)
+  Точные совпадения ключей: нет
+  Точные совпадения значений: нет
+  Вероятные схожие ключи:
+    long name <-> name
+    standard name <-> name
+    wavelength <-> rsp root gsi psp cont document data strip tablelengthwave wavelength channelnumber
+    wavelength <-> rsp root gsi psp cont document data strip tablelengthwave wavelength wavedelta
+    wavelength <-> rsp root gsi psp cont document data strip tablelengthwave wavelength wavelen
+    wavelength <-> wavelen
+
+Итог сравнения с .rsp файлами:
+  Всего точных ключей: 0
+  Всего точных значений: 0
+  Всего приблизительных совпадений ключей: 6
+
+TIFF metadata after export:
+  driver: GeoTIFF
+  size: (1234, 1280, 284)
+  projection: None
+  geotransform: None
+  метаданные:
+    WAVELENGTH_COUNT: 284
+  полосы:
+    полоса 1: dtype=Float32, description=
+    полоса 2: dtype=Float32, description=
+    полоса 3: dtype=Float32, description=
+    полоса 4: dtype=Float32, description=
+    полоса 5: dtype=Float32, description=
+    полоса 6: dtype=Float32, description=
+    полоса 7: dtype=Float32, description=
+    полоса 8: dtype=Float32, description=
+    полоса 9: dtype=Float32, description=
+    полоса 10: dtype=Float32, description=
+    полоса 11: dtype=Float32, description=
+    полоса 12: dtype=Float32, description=
+    полоса 13: dtype=Float32, description=
+    полоса 14: dtype=Float32, description=
+    полоса 15: dtype=Float32, description=
+    полоса 16: dtype=Float32, description=
+    полоса 17: dtype=Float32, description=
+    полоса 18: dtype=Float32, description=
+    полоса 19: dtype=Float32, description=
+    полоса 20: dtype=Float32, description=
+    полоса 21: dtype=Float32, description=
+    полоса 22: dtype=Float32, description=
+    полоса 23: dtype=Float32, description=
+    полоса 24: dtype=Float32, description=
+    полоса 25: dtype=Float32, description=
+    полоса 26: dtype=Float32, description=
+    полоса 27: dtype=Float32, description=
+    полоса 28: dtype=Float32, description=
+    полоса 29: dtype=Float32, description=
+    полоса 30: dtype=Float32, description=
+    полоса 31: dtype=Float32, description=
+    полоса 32: dtype=Float32, description=
+    полоса 33: dtype=Float32, description=
+    полоса 34: dtype=Float32, description=
+    полоса 35: dtype=Float32, description=
+    полоса 36: dtype=Float32, description=
+    полоса 37: dtype=Float32, description=
+    полоса 38: dtype=Float32, description=
+    полоса 39: dtype=Float32, description=
+    полоса 40: dtype=Float32, description=
+    полоса 41: dtype=Float32, description=
+    полоса 42: dtype=Float32, description=
+    полоса 43: dtype=Float32, description=
+    полоса 44: dtype=Float32, description=
+    полоса 45: dtype=Float32, description=
+    полоса 46: dtype=Float32, description=
+    полоса 47: dtype=Float32, description=
+    полоса 48: dtype=Float32, description=
+    полоса 49: dtype=Float32, description=
+    полоса 50: dtype=Float32, description=
+    полоса 51: dtype=Float32, description=
+    полоса 52: dtype=Float32, description=
+    полоса 53: dtype=Float32, description=
+    полоса 54: dtype=Float32, description=
+    полоса 55: dtype=Float32, description=
+    полоса 56: dtype=Float32, description=
+    полоса 57: dtype=Float32, description=
+    полоса 58: dtype=Float32, description=
+    полоса 59: dtype=Float32, description=
+    полоса 60: dtype=Float32, description=
+    полоса 61: dtype=Float32, description=
+    полоса 62: dtype=Float32, description=
+    полоса 63: dtype=Float32, description=
+    полоса 64: dtype=Float32, description=
+    полоса 65: dtype=Float32, description=
+    полоса 66: dtype=Float32, description=
+    полоса 67: dtype=Float32, description=
+    полоса 68: dtype=Float32, description=
+    полоса 69: dtype=Float32, description=
+    полоса 70: dtype=Float32, description=
+    полоса 71: dtype=Float32, description=
+    полоса 72: dtype=Float32, description=
+    полоса 73: dtype=Float32, description=
+    полоса 74: dtype=Float32, description=
+    полоса 75: dtype=Float32, description=
+    полоса 76: dtype=Float32, description=
+    полоса 77: dtype=Float32, description=
+    полоса 78: dtype=Float32, description=
+    полоса 79: dtype=Float32, description=
+    полоса 80: dtype=Float32, description=
+    полоса 81: dtype=Float32, description=
+    полоса 82: dtype=Float32, description=
+    полоса 83: dtype=Float32, description=
+    полоса 84: dtype=Float32, description=
+    полоса 85: dtype=Float32, description=
+    полоса 86: dtype=Float32, description=
+    полоса 87: dtype=Float32, description=
+    полоса 88: dtype=Float32, description=
+    полоса 89: dtype=Float32, description=
+    полоса 90: dtype=Float32, description=
+    полоса 91: dtype=Float32, description=
+    полоса 92: dtype=Float32, description=
+    полоса 93: dtype=Float32, description=
+    полоса 94: dtype=Float32, description=
+    полоса 95: dtype=Float32, description=
+    полоса 96: dtype=Float32, description=
+    полоса 97: dtype=Float32, description=
+    полоса 98: dtype=Float32, description=
+    полоса 99: dtype=Float32, description=
+    полоса 100: dtype=Float32, description=
+    полоса 101: dtype=Float32, description=
+    полоса 102: dtype=Float32, description=
+    полоса 103: dtype=Float32, description=
+    полоса 104: dtype=Float32, description=
+    полоса 105: dtype=Float32, description=
+    полоса 106: dtype=Float32, description=
+    полоса 107: dtype=Float32, description=
+    полоса 108: dtype=Float32, description=
+    полоса 109: dtype=Float32, description=
+    полоса 110: dtype=Float32, description=
+    полоса 111: dtype=Float32, description=
+    полоса 112: dtype=Float32, description=
+    полоса 113: dtype=Float32, description=
+    полоса 114: dtype=Float32, description=
+    полоса 115: dtype=Float32, description=
+    полоса 116: dtype=Float32, description=
+    полоса 117: dtype=Float32, description=
+    полоса 118: dtype=Float32, description=
+    полоса 119: dtype=Float32, description=
+    полоса 120: dtype=Float32, description=
+    полоса 121: dtype=Float32, description=
+    полоса 122: dtype=Float32, description=
+    полоса 123: dtype=Float32, description=
+    полоса 124: dtype=Float32, description=
+    полоса 125: dtype=Float32, description=
+    полоса 126: dtype=Float32, description=
+    полоса 127: dtype=Float32, description=
+    полоса 128: dtype=Float32, description=
+    полоса 129: dtype=Float32, description=
+    полоса 130: dtype=Float32, description=
+    полоса 131: dtype=Float32, description=
+    полоса 132: dtype=Float32, description=
+    полоса 133: dtype=Float32, description=
+    полоса 134: dtype=Float32, description=
+    полоса 135: dtype=Float32, description=
+    полоса 136: dtype=Float32, description=
+    полоса 137: dtype=Float32, description=
+    полоса 138: dtype=Float32, description=
+    полоса 139: dtype=Float32, description=
+    полоса 140: dtype=Float32, description=
+    полоса 141: dtype=Float32, description=
+    полоса 142: dtype=Float32, description=
+    полоса 143: dtype=Float32, description=
+    полоса 144: dtype=Float32, description=
+    полоса 145: dtype=Float32, description=
+    полоса 146: dtype=Float32, description=
+    полоса 147: dtype=Float32, description=
+    полоса 148: dtype=Float32, description=
+    полоса 149: dtype=Float32, description=
+    полоса 150: dtype=Float32, description=
+    полоса 151: dtype=Float32, description=
+    полоса 152: dtype=Float32, description=
+    полоса 153: dtype=Float32, description=
+    полоса 154: dtype=Float32, description=
+    полоса 155: dtype=Float32, description=
+    полоса 156: dtype=Float32, description=
+    полоса 157: dtype=Float32, description=
+    полоса 158: dtype=Float32, description=
+    полоса 159: dtype=Float32, description=
+    полоса 160: dtype=Float32, description=
+    полоса 161: dtype=Float32, description=
+    полоса 162: dtype=Float32, description=
+    полоса 163: dtype=Float32, description=
+    полоса 164: dtype=Float32, description=
+    полоса 165: dtype=Float32, description=
+    полоса 166: dtype=Float32, description=
+    полоса 167: dtype=Float32, description=
+    полоса 168: dtype=Float32, description=
+    полоса 169: dtype=Float32, description=
+    полоса 170: dtype=Float32, description=
+    полоса 171: dtype=Float32, description=
+    полоса 172: dtype=Float32, description=
+    полоса 173: dtype=Float32, description=
+    полоса 174: dtype=Float32, description=
+    полоса 175: dtype=Float32, description=
+    полоса 176: dtype=Float32, description=
+    полоса 177: dtype=Float32, description=
+    полоса 178: dtype=Float32, description=
+    полоса 179: dtype=Float32, description=
+    полоса 180: dtype=Float32, description=
+    полоса 181: dtype=Float32, description=
+    полоса 182: dtype=Float32, description=
+    полоса 183: dtype=Float32, description=
+    полоса 184: dtype=Float32, description=
+    полоса 185: dtype=Float32, description=
+    полоса 186: dtype=Float32, description=
+    полоса 187: dtype=Float32, description=
+    полоса 188: dtype=Float32, description=
+    полоса 189: dtype=Float32, description=
+    полоса 190: dtype=Float32, description=
+    полоса 191: dtype=Float32, description=
+    полоса 192: dtype=Float32, description=
+    полоса 193: dtype=Float32, description=
+    полоса 194: dtype=Float32, description=
+    полоса 195: dtype=Float32, description=
+    полоса 196: dtype=Float32, description=
+    полоса 197: dtype=Float32, description=
+    полоса 198: dtype=Float32, description=
+    полоса 199: dtype=Float32, description=
+    полоса 200: dtype=Float32, description=
+    полоса 201: dtype=Float32, description=
+    полоса 202: dtype=Float32, description=
+    полоса 203: dtype=Float32, description=
+    полоса 204: dtype=Float32, description=
+    полоса 205: dtype=Float32, description=
+    полоса 206: dtype=Float32, description=
+    полоса 207: dtype=Float32, description=
+    полоса 208: dtype=Float32, description=
+    полоса 209: dtype=Float32, description=
+    полоса 210: dtype=Float32, description=
+    полоса 211: dtype=Float32, description=
+    полоса 212: dtype=Float32, description=
+    полоса 213: dtype=Float32, description=
+    полоса 214: dtype=Float32, description=
+    полоса 215: dtype=Float32, description=
+    полоса 216: dtype=Float32, description=
+    полоса 217: dtype=Float32, description=
+    полоса 218: dtype=Float32, description=
+    полоса 219: dtype=Float32, description=
+    полоса 220: dtype=Float32, description=
+    полоса 221: dtype=Float32, description=
+    полоса 222: dtype=Float32, description=
+    полоса 223: dtype=Float32, description=
+    полоса 224: dtype=Float32, description=
+    полоса 225: dtype=Float32, description=
+    полоса 226: dtype=Float32, description=
+    полоса 227: dtype=Float32, description=
+    полоса 228: dtype=Float32, description=
+    полоса 229: dtype=Float32, description=
+    полоса 230: dtype=Float32, description=
+    полоса 231: dtype=Float32, description=
+    полоса 232: dtype=Float32, description=
+    полоса 233: dtype=Float32, description=
+    полоса 234: dtype=Float32, description=
+    полоса 235: dtype=Float32, description=
+    полоса 236: dtype=Float32, description=
+    полоса 237: dtype=Float32, description=
+    полоса 238: dtype=Float32, description=
+    полоса 239: dtype=Float32, description=
+    полоса 240: dtype=Float32, description=
+    полоса 241: dtype=Float32, description=
+    полоса 242: dtype=Float32, description=
+    полоса 243: dtype=Float32, description=
+    полоса 244: dtype=Float32, description=
+    полоса 245: dtype=Float32, description=
+    полоса 246: dtype=Float32, description=
+    полоса 247: dtype=Float32, description=
+    полоса 248: dtype=Float32, description=
+    полоса 249: dtype=Float32, description=
+    полоса 250: dtype=Float32, description=
+    полоса 251: dtype=Float32, description=
+    полоса 252: dtype=Float32, description=
+    полоса 253: dtype=Float32, description=
+    полоса 254: dtype=Float32, description=
+    полоса 255: dtype=Float32, description=
+    полоса 256: dtype=Float32, description=
+    полоса 257: dtype=Float32, description=
+    полоса 258: dtype=Float32, description=
+    полоса 259: dtype=Float32, description=
+    полоса 260: dtype=Float32, description=
+    полоса 261: dtype=Float32, description=
+    полоса 262: dtype=Float32, description=
+    полоса 263: dtype=Float32, description=
+    полоса 264: dtype=Float32, description=
+    полоса 265: dtype=Float32, description=
+    полоса 266: dtype=Float32, description=
+    полоса 267: dtype=Float32, description=
+    полоса 268: dtype=Float32, description=
+    полоса 269: dtype=Float32, description=
+    полоса 270: dtype=Float32, description=
+    полоса 271: dtype=Float32, description=
+    полоса 272: dtype=Float32, description=
+    полоса 273: dtype=Float32, description=
+    полоса 274: dtype=Float32, description=
+    полоса 275: dtype=Float32, description=
+    полоса 276: dtype=Float32, description=
+    полоса 277: dtype=Float32, description=
+    полоса 278: dtype=Float32, description=
+    полоса 279: dtype=Float32, description=
+    полоса 280: dtype=Float32, description=
+    полоса 281: dtype=Float32, description=
+    полоса 282: dtype=Float32, description=
+    полоса 283: dtype=Float32, description=
+    полоса 284: dtype=Float32, description=
+
+Пересечения между источниками (.nc/.tif/.rsp):
+  NC <-> TIFF: ключи=0, значения=0
+  TIFF <-> RSP: ключи=0, значения=0
+  NC <-> TIFF <-> RSP: ключи=0, значения=0
