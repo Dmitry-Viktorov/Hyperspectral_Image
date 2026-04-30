@@ -31,3 +31,5 @@ dataset/*.rsp
 # OS files
 .DS_Store
 Thumbs.db
+Theory.md
+Техническое_задание.md
